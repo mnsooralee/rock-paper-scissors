@@ -55,6 +55,14 @@ img {
     padding: 1rem;
     border-radius: 1rem;
 }
+.credits {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.credits a {
+    text-decoration: none;
+}
 @media screen and (max-width:650px) {
     .choices {
         /* flex-direction: column; */
