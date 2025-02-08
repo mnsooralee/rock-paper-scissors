@@ -57,16 +57,16 @@ img {
 }
 @media screen and (max-width:650px) {
     .choices {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 1rem;
     }
     .choice {
-        height: 125px;
-        width: 125px;
+        height: 100px;
+        width: 100px;
         /* opacity: 1; */
     }
     img {
-        height: 125px;
-        width: 125px;
+        height: 100px;
+        width: 100px;
     }
 }
