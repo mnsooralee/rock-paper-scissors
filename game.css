@@ -55,3 +55,17 @@ img {
     padding: 1rem;
     border-radius: 1rem;
 }
+@media screen and (max-width:650px) {
+    /* .choices {
+        flex-direction: column;
+    } */
+    .choice {
+        height: 100px;
+        width: 100px;
+        /* opacity: 1; */
+    }
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}
